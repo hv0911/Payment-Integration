@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+</head>
+<body>
+  
+    <nav id="navbar">
+        <div id="logo"  style="position: relative;  width: 80px ; left: 40px" >
+          <img
+            src="https://www.thesparksfoundationsingapore.org/images/logo_small.png"
+            style="padding-top: 3px; width: 100%"
+            ;
+          />
+         
+        </div>
+        <div><h2 id="heading">Shark Foundation</h2></div>
+        <div id="nav-list">
+          <ul>
+            <li class="item" id="active">Home</li>
+            <li class="item" id="item2">
+              <a
+                href="https://www.thesparksfoundationsingapore.org/"
+                target="_blank"
+                >About us</a
+              >
+            </li>
+            <!-- <li class="item" id="item3"><a href="">Donate Now</a></li> -->
+            <li class="item" id="item4"><a href="#contacts">Contact Us</a></li>
+          </ul>
+        </div>
+        <div >
+            <button class="button-81" onclick="paymentPage()">Donate Now</button>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="main">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis laborum, est aperiam possimus beatae iusto unde aliquam eum nulla consectetur. Adipisci asperiores tempora placeat recusandae eaque ratione sit suscipit in. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et ut odio quae quis, perspiciatis aspernatur numquam voluptates neque possimus, ad dolores, officiis iure?
+          </p>
+          <div>
+            <button class="button-64" role="button"><span class="text">Donate</span></button>
+            
+          </div>
+          
+        </div>
+        <div class="contacts">
+          <h3 id="head">Socials</h3>
+          <a href="https://twitter.com/tsfsingapore" target="_blank">
+            <i class="fa fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/thesparksfoundation.info/"
+            target="_blank"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/thesparksfoundation.info"
+            target="_blank"
+            ><i class="fa fa-facebook-square"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/company/the-sparks-foundation/"
+            target="_blank"
+            ><i class="fa fa-linkedin-square"></i
+          ></a>
+        </div>
+      </div>
+      <footer>
+        <p>All rights reserved <span>© 2022 Shivam Chaudhary.</span></p>
+      </footer>
+
+
+    <script>
+        function paymentPage() {
+          window.location.href = "https://pages.razorpay.com/pl_KIsTzKcCXxf9Tg/view";
+        }
+      </script>
+</body>
+</html>
